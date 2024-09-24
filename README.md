@@ -10,3 +10,26 @@ Li-Fi is a light fidelity concept known all over the world. Li-fi is based on vi
   
 # Block Diagram
 
+* NOTE **Block diagram for transmitter and receiver atteched externally**
+* Block Diagram Description
+
+* Li-Fi technology uses light-emitting diodes (LEDs) to transmit data between devices.
+* In this system, an ultrasonic sensor detects the distance to the vehicle ahead, while a vibration sensor monitors vehicle vibrations. A fuel sensor, along with     an alcohol sensor, measures the driver’s alcohol concentration. These data points are displayed on an LCD screen and simultaneously transmitted via a Li-Fi 
+  transmitter. 
+
+* The second vehicle, equipped with photovoltaic cells, receives this data. If discrepancies are detected between the transmitted and received data, it indicates 
+  that the second vehicle should halt in a designated safe area.
+# Hardware Requirements
+## Li-Fi Transmitter
+* Arduino Uno
+* LCD display
+* Ultrasonic sensor
+* Vibration sensor
+* Gas sensor
+* Li-Fi Transmitter
+## Li- fi Receiver
+ * Li-fi Receiver
+ * Solar cell
+ * LCD Display
+ * Arduino Uno
+   
